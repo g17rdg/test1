@@ -5,7 +5,6 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 import testCases.Homepage;
-import testCases.LoginTest;
 
 @RunWith(Suite.class)
 @SuiteClasses({ Homepage.class })
