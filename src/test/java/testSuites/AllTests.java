@@ -8,7 +8,7 @@ import testCases.Homepage;
 import testCases.LoginTest;
 
 @RunWith(Suite.class)
-@SuiteClasses({ Homepage.class, LoginTest.class })
+@SuiteClasses({ Homepage.class })
 public class AllTests {
 	
 	/*
