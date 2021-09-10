@@ -29,7 +29,7 @@ public class TestBase {
 	
 	@BeforeMethod
 	public void setUp() { 
-		System.setProperty("webdriver.chrome.driver","//C:\\Users\\EdgeV\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","//C:\\Users\\EdgeV\\Downloads\\chromedriver_win321\\chromedriver.exe");
 		
 		
 		driver = new ChromeDriver();
