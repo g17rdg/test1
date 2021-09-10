@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.MyAccountNeg"/>
+      <class name="testCases.Homepage"/>
+      <class name="testCases.ResetPasswordNeg"/>
+      <class name="testCases.LoginTest"/>
+      <class name="testCases.LoginTestNeg"/>
+      <class name="testCases.MyAccount"/>
+      <class name="helpers.TestBase"/>
+      <class name="testCases.HomepageNeg"/>
+      <class name="testCases.ResetPassword"/>
+      <class name="helpers.TestBaseNeg"/>
+      <class name="testCases.CreateAnAccountNeg"/>
+      <class name="testCases.CreateAnAccountLocal"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="loginTest1"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.LoginTestNeg">
+        <methods>
+          <include name="loginTest1"/>
+        </methods>
+      </class> <!-- testCases.LoginTestNeg -->
+      <class name="testCases.MyAccount">
+        <methods>
+          <include name="Homepage1"/>
+        </methods>
+      </class> <!-- testCases.MyAccount -->
+      <class name="testCases.ResetPassword">
+        <methods>
+          <include name="ResetPasswordForAccount"/>
+        </methods>
+      </class> <!-- testCases.ResetPassword -->
+      <class name="testCases.MyAccountNeg">
+        <methods>
+          <include name="Homepage1"/>
+        </methods>
+      </class> <!-- testCases.MyAccountNeg -->
+      <class name="testCases.ResetPasswordNeg">
+        <methods>
+          <include name="ResetPasswordForAccount"/>
+        </methods>
+      </class> <!-- testCases.ResetPasswordNeg -->
+      <class name="testCases.CreateAnAccountNeg">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccountNeg -->
+      <class name="testCases.Homepage">
+        <methods>
+          <include name="setUp"/>
+          <include name="Homepage1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Homepage -->
+      <class name="testCases.HomepageNeg">
+        <methods>
+          <include name="Homepage1"/>
+        </methods>
+      </class> <!-- testCases.HomepageNeg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+testCases\MyAccount.class
+helpers\TestBaseNeg.class
+testCases\ResetPassword.class
+testSuites\AllTests.class
+testCases\LoginTestNeg.class
+helpers\TestBase.class
+testCases\Homepage.class
+testCases\ResetPasswordNeg.class
+testCases\CreateAnAccountLocal.class
+testCases\CreateAnAccountNeg.class
+helpers\Utility.class
+testCases\LoginTest.class
+testCases\HomepageNeg.class
+helpers\UtilityNeg.class
+testCases\MyAccountNeg.class
