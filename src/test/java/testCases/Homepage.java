@@ -25,6 +25,11 @@ public class Homepage extends TestBase {
 	@Test
 	//This test method is repeated for each set of test data
 	public void Homepage1() {
+    
+
+		driver.get("http://aps:xtV9M55k@apsvirtual.master.aps-dev2.codeenigma.net/user/login");
+
+
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		// Locating web element
 				WebElement uName = driver.findElement(By.xpath("//*[@id=\"edit-name\"]"));
