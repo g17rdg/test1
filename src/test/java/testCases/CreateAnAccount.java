@@ -20,7 +20,6 @@ public class CreateAnAccount extends TestBase {
 
 
 
-
 		// Navigate to web page
 		driver.get("http://apsvirtual.master.aps-dev2.codeenigma.net/user/login");
 
