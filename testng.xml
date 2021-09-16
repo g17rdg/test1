@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testCases.Homepage"/>
+      <class name="testCases.MyAccount"/>
       <class name="testCases.CreateAnAccount"/>
       <class name="helpers.TestBase"/>
       <class name="helpers.TestBaseNeg"/>
