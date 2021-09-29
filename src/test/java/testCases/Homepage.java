@@ -52,10 +52,10 @@ public class Homepage extends TestBase {
 				System.out.println("The page title is : " + title2);
 				
 		// register interest for virtual event
-		driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[1]/div/div[5]/span/div/a")).click();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[1]/div/div[5]/span/div/a")).click();
+		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		// view webinar for virtual event
-		driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[1]/div/div[6]/div/a")).click();
+		driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[3]/div/div/div[2]/div[1]/div/div[4]/span/a")).click();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		// check register interest for virtual event on webinar page
 		driver.findElement(By.xpath("//*[@id=\"block-system-main-block\"]/div/article/div/div/div")).click();
@@ -194,20 +194,20 @@ public class Homepage extends TestBase {
 		driver.navigate().back();
 		
 		// register interest for another event
-		driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[3]/div/div[5]/span/div/a")).click();
+		//driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[3]/div/div[5]/span/div/a")).click();
 		// view webinar for health care event
-		driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[3]/div/div[6]/div/a")).click();
+		//driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[3]/div/div[6]/div/a")).click();
 		
 		// view webinar for another event click tech support
-		driver.findElement(By.xpath("//*[@id=\"ui-id-1\"]")).click();
+		//driver.findElement(By.xpath("//*[@id=\"ui-id-1\"]")).click();
 		
 		//evaluation type in text area button another event on webinar page 
-		driver.findElement(By.xpath("//*[@id=\"edit-message\"]")).sendKeys("test tech support message in Another event  hgojodfjg dopgdfoidfj oihdfgoidfh didjdnvhdfnvidfnv vidjfjncidfnfviudf divnidufvnf divfniudfnv  the automation test script work? test in maintest enviroment");
+		//driver.findElement(By.xpath("//*[@id=\"edit-message\"]")).sendKeys("test tech support message in Another event  hgojodfjg dopgdfoidfj oihdfgoidfh didjdnvhdfnvidfnv vidjfjncidfnfviudf divnidufvnf divfniudfnv  the automation test script work? test in maintest enviroment");
 
 //		//evaluation Submit button another event on webinar page 
 //		driver.findElement(By.xpath("//*[@id="edit-actions-submit"]")).click();
 		
-		driver.navigate().back();
+		//driver.navigate().back();
 		
 		// Click privacy policy on homepage
 		driver.findElement(By.xpath("//*[@id=\"block-block-content-footer-branding\"]/div/div/p[2]/a[1]")).click();

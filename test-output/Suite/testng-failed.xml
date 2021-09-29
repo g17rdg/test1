@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testCases.Homepage"/>
+      <class name="testCases.MyAccount"/>
+      <class name="testCases.CreateAnAccount"/>
       <class name="helpers.TestBase"/>
       <class name="helpers.TestBaseNeg"/>
     </classes>
@@ -14,8 +16,22 @@
         <methods>
           <include name="setUp"/>
           <include name="Homepage1"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.Homepage -->
+      <class name="testCases.MyAccount">
+        <methods>
+          <include name="setUp"/>
+          <include name="MyAccount1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.MyAccount -->
+      <class name="testCases.CreateAnAccount">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccount -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
