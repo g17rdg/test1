@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-29T11:36:22Z" name="Default suite" finished-at="2021-09-29T11:36:59Z" duration-ms="36318">
+  <suite started-at="2021-09-29T11:53:07Z" name="Default suite" finished-at="2021-09-29T11:53:32Z" duration-ms="25312">
     <groups>
     </groups>
-    <test started-at="2021-09-29T11:36:22Z" name="Default test" finished-at="2021-09-29T11:36:59Z" duration-ms="36318">
-      <class name="testCases.Homepage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Homepage@b4711e2]" started-at="2021-09-29T12:36:22Z" name="setUp" finished-at="2021-09-29T12:36:28Z" duration-ms="5283" status="PASS">
+    <test started-at="2021-09-29T11:53:07Z" name="Default test" finished-at="2021-09-29T11:53:32Z" duration-ms="25312">
+      <class name="testCases.MyAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.MyAccount@b4711e2]" started-at="2021-09-29T12:53:07Z" name="setUp" finished-at="2021-09-29T12:53:12Z" duration-ms="5069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Homepage1()[pri:0, instance:testCases.Homepage@b4711e2]" started-at="2021-09-29T12:36:28Z" name="Homepage1" finished-at="2021-09-29T12:36:58Z" duration-ms="30120" status="PASS">
+        <test-method signature="MyAccount1()[pri:0, instance:testCases.MyAccount@b4711e2]" started-at="2021-09-29T12:53:12Z" name="MyAccount1" finished-at="2021-09-29T12:53:31Z" duration-ms="19310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Homepage1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Homepage@b4711e2]" started-at="2021-09-29T12:36:58Z" name="tearDown" finished-at="2021-09-29T12:36:59Z" duration-ms="879" status="PASS">
+        </test-method> <!-- MyAccount1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.MyAccount@b4711e2]" started-at="2021-09-29T12:53:31Z" name="tearDown" finished-at="2021-09-29T12:53:32Z" duration-ms="898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.Homepage -->
+      </class> <!-- testCases.MyAccount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

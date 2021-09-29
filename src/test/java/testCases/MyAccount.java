@@ -57,15 +57,16 @@ public class MyAccount extends TestBase {
 		// To to my acoount
 		driver.findElement(By.linkText("MY ACCOUNT")).click();
 		
-		// click on health care event register insterst 
+		// click on another event register insterst 
 		driver.findElement(By.xpath("//*[@id=\"block-views-block-apslive-my-events-block-1\"]/div/div/div/div/div[1]/div/div[3]/span/div/a")).click();
 		
-		// click on another event register insterst 
+		// click on virtual event register insterst
 		driver.findElement(By.xpath("//*[@id=\"block-views-block-apslive-my-events-block-1\"]/div/div/div/div/div[2]/div/div[3]/span/div/a")).click();
 
-		// click on virtual event register insterst 
-		driver.findElement(By.xpath("//*[@id=\"block-views-block-apslive-my-events-block-1\"]/div/div/div/div/div[3]/div/div[3]/span/div/a")).click();
-		
+		 
+		// click on health care event register insterst 
+		//driver.findElement(By.xpath("//*[@id=\"block-views-block-apslive-my-events-block-1\"]/div/div/div/div/div[3]/div/div[3]/span/div/a")).click();
+
 		//clieck newsletters
 		driver.findElement(By.linkText("Newsletters")).click();
 		

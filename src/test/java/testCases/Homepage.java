@@ -58,7 +58,7 @@ public class Homepage extends TestBase {
 		driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[3]/div/div/div[2]/div[1]/div/div[4]/span/a")).click();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		// check register interest for virtual event on webinar page
-		driver.findElement(By.xpath("//*[@id=\"block-system-main-block\"]/div/article/div/div/div")).click();
+		driver.findElement(By.xpath("//*[@id=\"block-views-block-apslive-event-title-block-1\"]/div/div/div/div/div/div/div[2]/span/div/a")).click();
 		
 		// This  will scroll down the page by  1000 pixel vertical		
         js.executeScript("window.scrollBy(0,1000)");
@@ -95,7 +95,7 @@ public class Homepage extends TestBase {
 		
 		
 		//check ask a question virtual event on webinar page
-		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div/div/main/section/div[5]/div/div/div/div/div/div[1]/ul/li[4]/a")).click();
+		driver.findElement(By.xpath("//*[@id=\"quicktabs-apslive-event-content\"]/div[1]/ul/li[4]/a")).click();
 		  
 		//type in question virtual event on webinar page
 		driver.findElement(By.xpath("//*[@id=\"edit-field-question-0-value\"]")).sendKeys("did the automation test script work? test in maintest enviroment");
@@ -176,6 +176,7 @@ public class Homepage extends TestBase {
 //		driver.findElement(By.xpath("//*[@id=\"edit-submit--2\"]")).click();
 		
 		driver.navigate().back();
+		driver.navigate().back();
 		
 		// register interest for Health care event
 		driver.findElement(By.xpath("//*[@id=\"block-views-block-webinars-block-1\"]/div/div/div/div[2]/div[2]/div/div[5]/span/div/a")).click();
@@ -189,7 +190,7 @@ public class Homepage extends TestBase {
 		driver.findElement(By.xpath("//*[@id=\"edit-message\"]")).sendKeys("test tech support message in health care event  hgojodfjg dopgdfoidfj oihdfgoidfh didjdnvhdfnvidfnv vidjfjncidfnfviudf divnidufvnf divfniudfnv  the automation test script work? test in maintest enviroment");
 
 //		//evaluation Submit button health care on webinar page 
-//		driver.findElement(By.xpath("//*[@id="edit-actions-submit"]")).click();
+		//		driver.findElement(By.xpath("//*[@id="edit-actions-submit"]")).click();
 		
 		driver.navigate().back();
 		
