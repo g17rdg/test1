@@ -7,6 +7,7 @@
       <class name="testCases.MyAccount"/>
       <class name="testCases.CreateAnAccount"/>
       <class name="helpers.TestBase"/>
+      <class name="testCases.ResetPassword"/>
       <class name="helpers.TestBaseNeg"/>
     </classes>
   </test> <!-- Test -->

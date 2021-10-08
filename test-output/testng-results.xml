@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-29T11:53:07Z" name="Default suite" finished-at="2021-09-29T11:53:32Z" duration-ms="25312">
+  <suite started-at="2021-10-08T09:02:17Z" name="Default suite" finished-at="2021-10-08T09:02:29Z" duration-ms="12714">
     <groups>
     </groups>
-    <test started-at="2021-09-29T11:53:07Z" name="Default test" finished-at="2021-09-29T11:53:32Z" duration-ms="25312">
-      <class name="testCases.MyAccount">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.MyAccount@b4711e2]" started-at="2021-09-29T12:53:07Z" name="setUp" finished-at="2021-09-29T12:53:12Z" duration-ms="5069" status="PASS">
+    <test started-at="2021-10-08T09:02:17Z" name="Default test" finished-at="2021-10-08T09:02:29Z" duration-ms="12714">
+      <class name="testCases.ResetPassword">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ResetPassword@3f91b517]" started-at="2021-10-08T10:02:17Z" name="setUp" finished-at="2021-10-08T10:02:23Z" duration-ms="6405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="MyAccount1()[pri:0, instance:testCases.MyAccount@b4711e2]" started-at="2021-09-29T12:53:12Z" name="MyAccount1" finished-at="2021-09-29T12:53:31Z" duration-ms="19310" status="PASS">
+        <test-method signature="ResetPasswordForAccount()[pri:0, instance:testCases.ResetPassword@3f91b517]" started-at="2021-10-08T10:02:23Z" name="ResetPasswordForAccount" finished-at="2021-10-08T10:02:29Z" duration-ms="5480" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MyAccount1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.MyAccount@b4711e2]" started-at="2021-09-29T12:53:31Z" name="tearDown" finished-at="2021-09-29T12:53:32Z" duration-ms="898" status="PASS">
+        </test-method> <!-- ResetPasswordForAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ResetPassword@3f91b517]" started-at="2021-10-08T10:02:29Z" name="tearDown" finished-at="2021-10-08T10:02:29Z" duration-ms="813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.MyAccount -->
+      </class> <!-- testCases.ResetPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
